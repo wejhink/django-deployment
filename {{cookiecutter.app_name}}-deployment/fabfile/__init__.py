@@ -15,7 +15,7 @@ from ubuntu_commands import *
 
 
 env.hosts = ['{{cookiecutter.server_ip}}']
-env.user = 'root'
+env.user = '{{cookiecutter.ssh_user}}'
 env.directory = '/www/{{cookiecutter.app_name}}/'
 env.activate = 'source /www/{{cookiecutter.app_name}}-package/bin/activate'
 

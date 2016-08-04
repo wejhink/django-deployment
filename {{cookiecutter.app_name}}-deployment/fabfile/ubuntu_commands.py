@@ -38,7 +38,7 @@ def setup_webserver():
 def create_www():
     "Configure permissions on www"
     run("mkdir -p /www/")
-    run("chown -R root:www-data /www/")
+    run("chown -R {{cookiecutter.ssh_user}}:www-data /www/")
     run("chmod 775 -R /www/")
     run("chmod g+s -R /www/")
 

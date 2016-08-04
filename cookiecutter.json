@@ -1,5 +1,6 @@
 {
     "bitbucket_repository_user": "piedpiper-web",
+    "ssh_user":"root",
     "domain":"piedpiper.com",
     "app_name": "piedpiper",
     "server_ip": "This is the where the you need to put the server IP"
