@@ -5,7 +5,7 @@ import os
 
 from fabric.api import run, put
 
-config_path = os.path.realpath('deploy/supervisor/')
+config_path = os.path.realpath('{{cookiecutter.app_nam}}-deployment/deploy/supervisor/')
 config_file = os.path.basename(config_path)
 supervisor_etc_path = "/etc/supervisor/conf.d/"
 
